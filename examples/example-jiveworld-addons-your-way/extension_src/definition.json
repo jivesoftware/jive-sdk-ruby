@@ -1,0 +1,47 @@
+{
+    "integrationUser": {
+        "systemAdmin": false
+    },
+    "osapps": [
+    ],
+    "tiles": [
+        {
+            "icons": {
+                "16": "extension-16.png",
+                "48": "extension-48.png",
+                "128": "extension-128.png"
+            },
+            "dataProviderKey": "internal",
+            "id": "987ac1ff-8911-486d-8066-04d1a24d7f7e",
+            "definitionDirName": "tile-app-external",
+            "published": "2014-12-28T15:12:16.768-0800",
+            "updated": "2014-12-28T15:12:16.768-0800",
+            "displayName": "JiveWorld 16' CUSTOM_VIEW Tile",
+            "name": "tile-app-external",
+            "description": "A CUSTOM_VIEW tile used in the JiveWorld 16' Jive Add-Ons Your Way presentation.",
+            "style": "CUSTOM_VIEW",
+            "displayWidth": "ALL",
+            "pageTypes": ["PLACE", "USER", "NEWS", "MOBILE"],
+            "action": "%serviceURL%/tiles/app-external/action",
+            "config": "%serviceURL%/tiles/app-external/configuration",
+            "view": "%serviceURL%/tiles/app-external",
+            "unregister": "%serviceURL%/jive/tiles/unregister",
+            "register": "%serviceURL%/jive/tiles/register"
+        },
+	{
+		"icons": {
+			"16": "extension-16.png",
+			"48": "extension-48.png",
+			"128": "extension-128.png"
+		},
+		"displayName": "JiveWorld 16' ACTIVITY Tile",
+		"name": "tile-app-external-activity",
+		"description": "A ACTIVITY tile used in the JiveWorld 16' Jive Add-Ons Your Way presentation.",
+		"style": "ACTIVITY",
+		"config": "%serviceURL%/tiles/app-external/configuration",
+		"view": "%serviceURL%/tiles/app-external",
+		"unregister": "%serviceURL%/jive/tiles/unregister",
+		"register": "%serviceURL%/jive/tiles/register"
+	}
+    ]
+}

@@ -1,0 +1,17 @@
+{
+    "package_version": "1.0",
+    "id": "add10bdb-834d-4ded-b6c0-ebbb3b9a5f86",
+    "type": "client-app",
+    "name": "meta.name",
+    "description": "meta.description",
+    "minimum_version": "0080000000",
+    "icon_16": "extension-16.png",
+    "icon_48": "extension-48.png",
+    "icon_128": "extension-128.png",
+    "released_on": "2015-11-21T05:04:10.600Z",
+    "redirect_url": "%serviceURL%",
+    "releasedOn": "2015-11-21T05:04:10.600Z",
+    "unregister_url": "%serviceURL%/jive/add-ons/sampleapp/unregister",
+    "register_url": "%serviceURL%/jive/add-ons/sampleapp/register",
+    "service_url": "http://localhost"
+}

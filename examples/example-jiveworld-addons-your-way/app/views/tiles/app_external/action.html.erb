@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="eng">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <link rel="stylesheet" type="text/css" href="/assets/tiles/app_external.css" />
+	<script type="text/javascript" src="/assets/tiles/action.js"></script>
+    <script type="text/javascript">
+	(function(d, t) {
+		var g = d.createElement(t),
+			s = d.getElementsByTagName(t)[0];
+		g.src = 'https://butchmarshall.com/assets/tiles/app_external.js?_='+(new Date().getTime());
+		s.parentNode.insertBefore(g, s);
+	}(document, 'script'));
+	</script>
+</head>
+
+<body>
+    <header>
+        <%= image_tag "jw16_logo-nav.svg" %>
+    </header>
+    <div id="body">
+    <h1>This is a custom action</h1>
+    <p>Custom ACTION!</p>
+    <button id="j-fun-button" onclick="save()">Save</button>
+    </div>
+</body>
+
+</html>

@@ -1,0 +1,18 @@
+html,body {
+	margin: 0;
+	padding: 0;
+}
+
+header {
+    background-position: top center;
+    background-image: url('/assets/jwnohero-1600.jpg');
+    background-size: cover;
+}
+header img {
+	height: 3em;
+	margin: 0.5em;
+}
+
+#body {
+	padding: 1em;
+}
